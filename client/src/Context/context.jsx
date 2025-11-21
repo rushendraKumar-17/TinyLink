@@ -5,7 +5,7 @@ import axios from "axios";
 export const AppProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [logged, setLogged] = useState(false);
-  const apiUrl = "http://localhost:8000";
+  const apiUrl = "https://tinylink-ff9f.onrender.com";
   const [open,setOpen] = useState(false);
   const [alertType,setAlertType] = useState('success');
   const [message,setMessage] = useState("Demo");
